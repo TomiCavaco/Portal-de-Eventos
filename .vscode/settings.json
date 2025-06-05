@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "eventos_web/src/main/java",
+        "eventos_web/src",
+        "eventos_web/portal/src/main/java/com/main"
+    ]
+}

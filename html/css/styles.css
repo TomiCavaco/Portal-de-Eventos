@@ -1,0 +1,200 @@
+ body {
+     font-family: sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f4f4f4;
+     color: #333;
+ }
+
+ header {
+     background: linear-gradient(to left, #000436, #2a3346);
+     color: white;
+     padding: 1em;
+     text-align: center;
+ }
+
+ nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+ }
+
+ nav ul li {
+     margin: 0 1em;
+ }
+
+ nav a {
+     color: white;
+     text-decoration: none;
+ }
+
+ nav a:hover {
+     color: aqua;
+ }
+
+ main {
+     padding: 20px;
+ }
+
+ section {
+     background-color: white;
+     padding: 20px;
+     margin-bottom: 20px;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ section h2 {
+     color: #333;
+     border-bottom: 2px solid #ccc;
+     padding-bottom: 0.5em;
+     margin-bottom: 1em;
+ }
+
+ .carousel {
+     display: flex;
+     overflow-x: auto;
+     gap: 20px;
+     padding-bottom: 15px;
+
+ }
+
+ .carousel figure {
+     margin: 0;
+     text-align: center;
+     flex: 0 0 auto;
+     width: 300px;
+     /* Ajusta el ancho según tus imágenes */
+ }
+
+ .carousel figure a {
+     text-decoration: none;
+     color: indigo;
+     display: block;
+     padding: 0;
+     margin: o;
+ }
+
+ /* Para asegurarte de que el texto dentro del .trust-block se mantenga blanco (si es lo que buscas) */
+ .carousel figure a .trust-block .content h3,
+ .carousel figure a .trust-block .content p {
+     color: rgb(14, 7, 7);
+     /* Forzar el color blanco para el texto dentro del bloque de confianza */
+ }
+
+ .carousel figure img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 4px;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+ }
+
+
+ .carousel figcaption {
+     margin-top: 0.5em;
+     font-size: 0.9em;
+     color: #666;
+ }
+
+
+ .glow-border {
+     position: relative;
+     border: 2px solid rgba(248, 250, 252, 0.7);
+     /* Slightly transparent white en modo oscuro */
+     box-shadow: 0 0 12px rgba(7, 10, 14, 0.2);
+     /* Sombra más oscura */
+     border-radius: 12px;
+     /* Bordes más redondeados */
+ }
+
+ .categorias {
+  padding: 2rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.categorias h2 {
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+  font-size: 1.8rem;
+}
+
+.categorias-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.categoria-item {
+  flex: 1;
+  min-width: 150px;
+  max-width: 250px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto */
+  display: block; /* Para que ocupe todo el espacio */
+}
+
+.categoria-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  background: #e9f5eb;
+  text-decoration: none; /* Asegura que no aparezca subrayado al hover */
+}
+
+.categoria-item h3 {
+  margin: 0;
+  color: #0c110c;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+ /* Footer */
+ footer {
+     background-color: #070724;
+     color: rgb(255, 255, 255);
+     padding: 2rem 0 0;
+     margin-top: 3rem;
+ }
+
+ .footer-content {
+     max-width: 1200px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     padding: 0 1rem;
+ }
+
+ .footer-section h3 {
+     margin-bottom: 1rem;
+     font-size: 1.2rem;
+ }
+
+ .footer-section ul {
+     list-style: none;
+ }
+
+ .footer-section ul li {
+     margin-bottom: 0.5rem;
+ }
+
+ .footer-section ul li a {
+     color: #ffffff;
+ }
+
+
+ .footer-bottom {
+     text-align: center;
+     padding: 1rem;
+     margin-top: 2rem;
+     border-top: 1px solid #ffffff;
+     font-size: 0.9rem;
+ }
