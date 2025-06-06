@@ -15,7 +15,7 @@ JavaScript: js/carousel.js para el carrusel interactivo.
 **Listado de eventos :** Encontramos todos los eventos, donde pordemos acceder a mas detalles.
 ![image](https://github.com/user-attachments/assets/d7a45057-4f04-4882-9e96-497bd0c747b0)
 
-**Destalles ** 
+**Destalles** 
 
 ![image](https://github.com/user-attachments/assets/d0072d53-1437-40e2-bc3c-c314e3f2998e)
 
