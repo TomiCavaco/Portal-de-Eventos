@@ -9,15 +9,24 @@ Tecnologías Usadas
 CSS: Estiliza con css/styles.css (página principal) y css/stylesEventos.css (eventos). Incluye carrusel, efectos (glow-border) y cuadrícula (categorias-grid).
 JavaScript: js/carousel.js para el carrusel interactivo.
 
-**Pagina principal :** Apreciamos el carroucel enlazado a los eventos disponibles.
-![image](https://github.com/user-attachments/assets/c721f9b3-06e7-484f-80b2-0ee348094e7e)
+## Página Principal  
+La página principal del Portal de Eventos Sostenibles muestra un **carrusel interactivo** con los eventos disponibles. Los usuarios pueden navegar fácilmente entre diferentes opciones y seleccionar eventos de interés.  
 
-**Listado de eventos :** Encontramos todos los eventos, donde pordemos acceder a mas detalles.
-![image](https://github.com/user-attachments/assets/d7a45057-4f04-4882-9e96-497bd0c747b0)
+![Vista de la página principal](https://github.com/user-attachments/assets/c721f9b3-06e7-484f-80b2-0ee348094e7e)
 
-**Destalles** 
+---
 
-![image](https://github.com/user-attachments/assets/d0072d53-1437-40e2-bc3c-c314e3f2998e)
+## Listado de Eventos  
+En esta sección se encuentra una lista con todos los eventos programados, donde los usuarios pueden acceder a más detalles sobre cada uno.  
+
+![Listado de eventos](https://github.com/user-attachments/assets/d7a45057-4f04-4882-9e96-497bd0c747b0)
+
+---
+
+## Detalles del Evento  
+Cada evento cuenta con una página específica que muestra información detallada, como fecha, ubicación, descripción y organizador.  
+
+![Ejemplo de página de detalles](https://github.com/user-attachments/assets/d0072d53-1437-40e2-bc3c-c314e3f2998e)
 
 ###### Backend:
 **Java**: Clases como GestionEventos y Main para gestionar eventos y usuarios.
