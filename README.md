@@ -9,8 +9,6 @@ Tecnologías Usadas
 CSS: Estiliza con css/styles.css (página principal) y css/stylesEventos.css (eventos). Incluye carrusel, efectos (glow-border) y cuadrícula (categorias-grid).
 JavaScript: js/carousel.js para el carrusel interactivo.
 
-
-
 ## Página Principal  
 La página principal del Portal de Eventos Sostenibles muestra un **carrusel interactivo** con los eventos disponibles. Los usuarios pueden navegar fácilmente entre diferentes opciones y seleccionar eventos de interés.  
 
@@ -29,7 +27,6 @@ En esta sección se encuentra una lista con todos los eventos programados, donde
 Cada evento cuenta con una página específica que muestra información detallada, como fecha, ubicación, descripción y organizador.  
 
 ![Ejemplo de página de detalles](https://github.com/user-attachments/assets/d0072d53-1437-40e2-bc3c-c314e3f2998e)
-
 
 ###### Backend:
 **Java**: Clases como GestionEventos y Main para gestionar eventos y usuarios.
