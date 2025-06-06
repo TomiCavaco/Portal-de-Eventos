@@ -9,13 +9,11 @@ Tecnologías Usadas
 CSS: Estiliza con css/styles.css (página principal) y css/stylesEventos.css (eventos). Incluye carrusel, efectos (glow-border) y cuadrícula (categorias-grid).
 JavaScript: js/carousel.js para el carrusel interactivo.
 
+![image](https://github.com/user-attachments/assets/c721f9b3-06e7-484f-80b2-0ee348094e7e)
 
 ###### Backend:
 **Java**: Clases como GestionEventos y Main para gestionar eventos y usuarios.
 **MySQL** : Base de datos para eventos, usuarios y más.
-
-
-Imágenes: En img/ (ej. accion (1).jpg).
 
 ### Modelo
 ###### Modelo de Base de Datos
