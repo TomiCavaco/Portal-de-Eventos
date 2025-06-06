@@ -11,6 +11,12 @@ JavaScript: js/carousel.js para el carrusel interactivo.
 
 ![image](https://github.com/user-attachments/assets/c721f9b3-06e7-484f-80b2-0ee348094e7e)
 
+![image](https://github.com/user-attachments/assets/d7a45057-4f04-4882-9e96-497bd0c747b0)
+
+![image](https://github.com/user-attachments/assets/d0072d53-1437-40e2-bc3c-c314e3f2998e)
+
+
+
 ###### Backend:
 **Java**: Clases como GestionEventos y Main para gestionar eventos y usuarios.
 **MySQL** : Base de datos para eventos, usuarios y más.
